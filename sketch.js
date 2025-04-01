@@ -1,8 +1,10 @@
+//version two updated 
 let speed_yellow = 1;
 let speed_green = 1;
 let x_yellow = 50;
 let y_green = 350;
-let color_yellow="yellow"
+let color_yellow="red"
+// color changed to "red"
 function setup() {
   createCanvas(400, 400);
 }
@@ -36,4 +38,7 @@ fill("orange");
 function mousePressed() {
   console.log("mouse is pressed");
   speed_yellow = 2;
+}
+function keyPressed(){
+  
 }
